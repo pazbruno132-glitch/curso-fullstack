@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Exercício de formulários</h1>
+
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome"> <br>
+
+            <label for="iemail">Email:</label>
+            <input type="text" name="email" id="iemail"> <br>
+
+            <input type="checkbox" name="msg" id="imsg">
+            <label for="imsg">Quero receber e-mail</label> <br> <br>
+
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha">
+        </fieldset> <br>
+
+        <fieldset>
+            <legend>Informações adicionais</legend>
+
+            <input type="radio" name="pessoa" id="ipessoa">
+            <label for="ipessoa">Pessoa Física</label>
+
+            <input type="radio" name="pessoa" id="ipessoa2">
+            <label for="ipessoa2">Pessoa Jurídica</label>
+        </fieldset>
+
+        <input type="submit" value="Cadastrar">
+    </form>
+
+</body>
+</html>
