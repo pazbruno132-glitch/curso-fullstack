@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-color: #d2d2c1;
+    background-image: url('../img/fundo.png');
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#menu{
+    background-color: #c5c5b2;
+    padding: 20px;
+}
+
+#principal{
+    width: 900px;
+}
+
+#conteudo{
+    background-color: #e8e8d9;
+    padding: 10px;
+}
+
+#rodape{
+   text-align: center; 
+}
+
+a{
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1{
+    color: #828271;
+    font-size: 1.3em;
+}
