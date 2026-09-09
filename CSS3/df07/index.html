@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div#container{
+            display: flex;
+            flex-flow: column nowrap;
+            background-color: goldenrod;
+            width: 200px;
+        }
+
+        #container a{
+            color: black;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+
+        #container a:hover{
+            background-color: darkorange;
+            color: white;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Menu de navegação</h1>
+
+    <div id="container">
+        <a href="#"> &RightArrow; Home</a>
+        <a href="#"> &RightArrow; Produtos</a>
+        <a href="#"> &RightArrow; Carrinho</a>
+        <a href="#"> &RightArrow; Contato</a>
+    </div>
+</body>
+</html>
